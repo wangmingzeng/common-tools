@@ -8,14 +8,15 @@ package cn.com.zach.tools.constant;
 public class ReturnCode {
 	
 	/**请求成功*/
-	public static final String SUCCESS = "0";
+	public static final String SUCCESS = "200";
 	
 	/**服务故障*/
-	public static final String SYSTEM_ERROR = "1";
+	public static final String SYSTEM_ERROR = "-1";
 	
 	/**参数错误*/
-	public static final String PARAM_ERROR = "2";
+	public static final String PARAM_ERROR = "-2";
 	
+	/**100~1000为通用错误码*/
 	
 	/**1000~以上为业务错误码*/
 }
